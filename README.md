@@ -1,2 +1,2 @@
-# Prvn-projekt
+# První-projekt
 první projekt engeto

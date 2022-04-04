@@ -21,7 +21,7 @@ public class Main {
         } catch (Exception e) {
             System.err.println("Exception: " + e.getLocalizedMessage());
         }
-//1
+//2
         System.out.println("výstup aplikace č.2 - výpis:");
         System.out.println(line);
 
@@ -45,7 +45,7 @@ public class Main {
         }
         System.out.println(line);
 
-
+//5.
         String shout = "Sazba VAT 20 % nebo nižší nebo používají speciální sazbu:";
         for (StateInfo s : states1.getStatesFromFile()) {
             if (s.getFullIncomeTax() <= 20) {
@@ -62,7 +62,7 @@ public class Main {
         System.out.println(n);
 
         System.out.println("výstup aplikace č.6 \n - nahrání do souboru");
-
+//6.
         String outputFile = outputFile1+"\n"+sb;
         try (PrintWriter writer = new PrintWriter(new FileWriter("vat-over-20.txt"))) {
             writer.print(outputFile);
@@ -74,7 +74,7 @@ public class Main {
 
         System.out.println(n);
         System.out.println("výstup z aplikace č.7 - zadávání z klávesnice");
-
+//7.
 
         System.out.println(n);
         System.out.println("Enter VAT value or press enter");

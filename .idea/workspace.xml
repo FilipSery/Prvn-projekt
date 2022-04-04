@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a0c8e08-0845-4b7e-862d-49bbcc8f2cd3" name="Changes" comment="vytvoreni ctece a nahravace do souboru ve tride StatesReadingFromFile">
-      <change afterPath="$PROJECT_DIR$/src/com/engeto/projekt1/VatComparator.java" afterDir="false" />
+    <list default="true" id="2a0c8e08-0845-4b7e-862d-49bbcc8f2cd3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/vat-eu.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vat-over-20.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/engeto/projekt1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/engeto/projekt1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/engeto/projekt1/StateInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/engeto/projekt1/StateInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/engeto/projekt1/StatesReadingFromFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/engeto/projekt1/StatesReadingFromFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/engeto/projekt1/vat-eu.csv" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +89,9 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Pokojoverostliny" />
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.engeto.projekt1.Main" />
@@ -152,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648405934957</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="vytvoreni tridy VatComparator, nasledne vytvoreni comparatoru">
+      <created>1648407773082</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1648407773082</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -173,6 +188,7 @@
     <MESSAGE value="pridani tridy StateInfo a StatesReadingFromFile" />
     <MESSAGE value="prace na tride StatesReadingFromFile" />
     <MESSAGE value="vytvoreni ctece a nahravace do souboru ve tride StatesReadingFromFile" />
-    <option name="LAST_COMMIT_MESSAGE" value="vytvoreni ctece a nahravace do souboru ve tride StatesReadingFromFile" />
+    <MESSAGE value="vytvoreni tridy VatComparator, nasledne vytvoreni comparatoru" />
+    <option name="LAST_COMMIT_MESSAGE" value="vytvoreni tridy VatComparator, nasledne vytvoreni comparatoru" />
   </component>
 </project>

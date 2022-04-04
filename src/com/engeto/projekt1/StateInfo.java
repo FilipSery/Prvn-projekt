@@ -1,13 +1,15 @@
 package com.engeto.projekt1;
 
+import javax.swing.plaf.nimbus.State;
+
 public class StateInfo {
     private String stateAbbreviation;
     private String stateName;
     private int fullIncomeTax;
-    private int loweredIncomeTax;
+    private double loweredIncomeTax;
     private boolean hasSpecialTax;
 
-    public StateInfo(String stateAbbreviation, String stateName, int fullIncomeTax, int loweredIncomeTax, boolean hasSpecialTax) {
+    public StateInfo(String stateAbbreviation, String stateName, int fullIncomeTax, double loweredIncomeTax, boolean hasSpecialTax) {
         this.stateAbbreviation = stateAbbreviation;
         this.stateName = stateName;
         this.fullIncomeTax = fullIncomeTax;
@@ -39,11 +41,11 @@ public class StateInfo {
         this.fullIncomeTax = fullIncomeTax;
     }
 
-    public int getLoweredIncomeTax() {
+    public double getLoweredIncomeTax() {
         return loweredIncomeTax;
     }
 
-    public void setLoweredIncomeTax(int loweredIncomeTax) {
+    public void setLoweredIncomeTax(double loweredIncomeTax) {
         this.loweredIncomeTax = loweredIncomeTax;
     }
 
